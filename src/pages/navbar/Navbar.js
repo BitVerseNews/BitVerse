@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 
-const pages = ['Drama', 'Merch', 'News','Gaming'];
+const pages = ['News', 'Gaming', 'Reviews','Drama','Merch'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -34,7 +34,7 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static" style={{backgroundColor:'black'}}>
+    <AppBar position="static" style={{backgroundColor:'black', marginBottom:-15}}>
       <Container maxWidth="xxl">
         <Toolbar disableGutters>
           <Typography
