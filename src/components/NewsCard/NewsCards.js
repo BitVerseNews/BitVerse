@@ -9,9 +9,9 @@ const NewsCards = ({source}) => {
       <img className='imgContainer' src={source} alt="new"/>
 
 <div className='headLineTitle'>
-   <h3 style={{ opacity:1000, color:'white'}} >Woke women are bad</h3>
 </div>
      
+   <h3 style={{  paddingLeft:10,position: 'absolute',zIndex:1,color:'white',  bottom: '1%'}} >Woke women are bad</h3>
       
     
     </div>
