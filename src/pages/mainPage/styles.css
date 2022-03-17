@@ -1,0 +1,12 @@
+
+.mainContainer {
+    height: 100vh;
+    background-image: url('../../assets/backgroundpic.png');
+    
+    
+}
+
+.title{
+   
+    padding-left: 3%;
+}
